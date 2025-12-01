@@ -8,7 +8,7 @@ icon: fort
 
 Dungeons in the game are more than just battlefields—they are living, evolving entities governed by player ownership, strategic management, and a dynamic in-game economy. Each dungeon is a unique, tradeable NFT, procedurally generated at the moment of minting, ensuring that no two dungeons are alike. These dungeons serve as the foundation for both PvE and PvP experiences, offering opportunities for adventure, competition, and wealth generation.
 
-Only heroes of **Epic** or **Legendary** tiers, through progression and upgrades, can attain the coveted title of **Landlord**, granting them ownership of a dungeon. However, non-landowners can still explore, raid, and participate in these dungeons, engaging in various activities under the governance of the Landlord.
+Only **Legendary** heroes can attain the coveted title of **Landlord**, granting them ownership of a dungeon. **Epic** heroes may reach Landlord status only by ascending to the **Legendary** tier. Non-landowners can still explore, raid, and participate in these dungeons, engaging in various activities under the governance of the Landlord.
 
 ### Procedural Generation & Unique Features
 
@@ -34,7 +34,7 @@ The **rate of Light regeneration** depends on the dungeon’s tier and a balanci
 
 ### Dungeon Tiers & Their Mechanics
 
-<table><thead><tr><th width="109.050048828125">Tier</th><th width="113">Max Players</th><th width="166">Modes</th><th width="92.9833984375">Bosses</th><th width="114.2000732421875">Extension</th><th>Taxation</th></tr></thead><tbody><tr><td><mark style="color:blue;">Rare</mark></td><td>8 (private)</td><td>PvE, PvP (PK, Duels, Private Arenas)</td><td>1</td><td>0.2 km²</td><td>5%</td></tr><tr><td><mark style="color:purple;">Epic</mark></td><td>12 (private and public)</td><td>Creative Mode, PvE, PvP (PK, Duels, Ranked Arenas)</td><td>2</td><td>0.5 km²</td><td>15%</td></tr><tr><td><mark style="color:orange;">Legendary</mark></td><td>16 (private and public)</td><td>Creative Mode, PvE, PvP (PK, Duels, Ranked Arenas, Tournaments, Siegues, Battle Royale)</td><td>3</td><td>1 km²</td><td>Flexible, up to 35%</td></tr></tbody></table>
+<table><thead><tr><th width="109.050048828125">Tier</th><th width="113">Max Players</th><th width="166">Modes</th><th width="92.9833984375">Bosses</th><th width="114.2000732421875">Extension</th><th>Taxation</th></tr></thead><tbody><tr><td><mark style="color:blue;">Rare</mark></td><td>8 (private)</td><td>PvE, PvP (PK, Duels, Private Arenas)</td><td>1</td><td>0.2 km²</td><td>5% (fixed)</td></tr><tr><td><mark style="color:purple;">Epic</mark></td><td>12 (private and public)</td><td>Creative Mode, PvE, PvP (PK, Duels, Ranked Arenas)</td><td>2</td><td>0.5 km²</td><td>10%–20% (default 15%)</td></tr><tr><td><mark style="color:orange;">Legendary</mark></td><td>16 (private and public)</td><td>Creative Mode, PvE, PvP (PK, Duels, Ranked Arenas, Tournaments, Siegues, Battle Royale)</td><td>3</td><td>1 km²</td><td>15%–35% (default 20%)</td></tr></tbody></table>
 
 {% hint style="info" %}
 aca no se si poner un disclaimer que lleve a una planilla completa sobre los tiers
@@ -64,7 +64,7 @@ Landlords can transform their dungeons into high-stakes battlegrounds, introduci
 
 ### Landlord Economy & Taxation
 
-Owning a dungeon NFT is not just a privilege—it is an economic venture. Landlords generate revenue through a taxation system, collecting a percentage of the GoldCoin (the in-game, non-crypto currency) earned by visiting players at the end of each session, ensuring a steady stream of passive income.
+Owning a dungeon NFT is not just a privilege—it is an economic venture. Landlords generate revenue through a taxation system, collecting a percentage of the **Ebon Coin** (the in-game, non-crypto currency) earned by visiting players, ensuring a steady stream of passive income.
 
 * **Surplus earnings** (beyond the cap) are **redirected to the Landlord**.
 * **Top-tier dungeons** have **dynamic taxation**, increasing yield potential.

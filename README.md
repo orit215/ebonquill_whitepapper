@@ -6,7 +6,7 @@ coverY: 0
 
 # Welcome
 
-Welcome to the MasterDungeons Whitepaper! Here you'll get an overview of all the exciting features and innovative systems that drive our P\&E dungeon crawler. Navigate through the document using the provided links to explore key sections covering gameplay mechanics, tokenomics, and NFT integration. Enjoy your journey through the dynamic realm where heroes revive the legacy of ancient conquests.
+Welcome to the Ebonquill Whitepaper! Here you'll get an overview of all the exciting features and innovative systems that drive our P&E dungeon crawler. Navigate through the document using the provided links to explore key sections covering gameplay mechanics, tokenomics, and NFT integration. Enjoy your journey through the dynamic realm where heroes revive the legacy of ancient conquests.
 
 ### Jump right in
 

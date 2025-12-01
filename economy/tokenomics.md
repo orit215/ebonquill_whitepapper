@@ -65,7 +65,7 @@ The in-game **NFT marketplace** allows players to trade key assets, including:
 * **Rare Items (NFTs):** Unique gear, skins, and collectibles.
 * **Legendary Skills (NFTs):** Unique, fully customizable, tradeable abilities that grant powerful effects, exclusive to Legendary-tier heroes.
 
-A **transaction fee in&#x20;**<mark style="color:purple;">**$EPIC**</mark> applies to all marketplace sales, contributing to the game's economy and sustainability.
+A **2.5% transaction fee in **<mark style="color:purple;">**$EPIC**</mark> applies to all marketplace sales and is routed to the **DAO Treasury** to fund operations and ecosystem growth.
 
 ### **Anti-Inflation & Sustainability Measures**
 
@@ -73,7 +73,7 @@ To prevent economic collapse due to hyperinflation, the following mechanisms are
 
 * **Ebon Coin daily earning caps** based on hero rarity.
 * **Oracle-driven exchange rate** to prevent token devaluation.
-* **Landlord taxation system**, ensuring steady token redistribution.
+* **Landlord taxation system**, ensuring steady token redistribution (by dungeon tier: **Rare 5% fixed; Epic 10%–20% (default 15%); Legendary 15%–35% (default 20%)**).
 * **Staking incentives** to encourage token retention rather than liquidation.
 * **Light system** that limits dungeon farming, preventing excessive rewards.
 

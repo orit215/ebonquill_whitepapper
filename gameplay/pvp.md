@@ -8,7 +8,7 @@ icon: swords
 
 #### High-Stakes Combat & Strategic Domination
 
-PvP in **DungeonMasters** is designed for warriors who thrive in high-risk, high-reward environments. Whether engaging in structured arenas, large-scale sieges, or fast-paced battle royale matches, players have endless opportunities to test their skills, claim prestigious rewards, and carve their name into legend. Landlords play a crucial role in shaping PvP landscapes, voluntarily exposing their dungeons to competitive events that drive player engagement and amplify the in-game economy.
+PvP in **Ebonquill** is designed for warriors who thrive in high-risk, high-reward environments. Whether engaging in structured arenas, large-scale sieges, or fast-paced battle royale matches, players have endless opportunities to test their skills, claim prestigious rewards, and carve their name into legend. Landlords play a crucial role in shaping PvP landscapes, voluntarily exposing their dungeons to competitive events that drive player engagement and amplify the in-game economy.
 
 #### **Guild Sieges: Control, Strategy & Wealth**
 
@@ -33,4 +33,4 @@ Beyond large-scale battles, players can engage in **varied PvP modes**, includin
 
 #### **Tournaments & Massive PvP Events**
 
-Tournaments and large-scale PvP events are **actively promoted**, attracting elite warriors from all over the world. These high-profile competitions offer exclusive rewards, sponsorship opportunities, and unprecedented prestige, ensuring continuous engagement and excitement within the DungeonMasters ecosystem.
+Tournaments and large-scale PvP events are **actively promoted**, attracting elite warriors from all over the world. These high-profile competitions offer exclusive rewards, sponsorship opportunities, and unprecedented prestige, ensuring continuous engagement and excitement within the Ebonquill ecosystem.

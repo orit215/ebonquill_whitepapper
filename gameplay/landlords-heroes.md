@@ -18,7 +18,29 @@ Beyond the **Common Hero**, which is granted for free upon registration, players
 
 Players will have the opportunity to acquire these NFT Heroes during the **first and second rounds of the presale (ICO)**, giving **early adopters** access to exclusive characters before they hit the open market. Eventually, these heroes will be available in the **game’s marketplace**, where players can **trade, buy, and sell their assets** freely. Additionally, while **Legendary Heroes are the only ones who can own land**, **Epic Heroes** can undergo a specialized ascension process—a transformative **upgrade** that elevates them to the **Legendary tier**, granting them Landlord status.
 
-<table><thead><tr><th width="136">Tier</th><th width="188" data-type="number">Session Ebon Coin Cap</th><th width="137" data-type="checkbox">Landlord Status</th><th>Base Stat Bonus</th><th>Experience Bonus</th></tr></thead><tbody><tr><td><mark style="color:green;">Common</mark></td><td>100</td><td>false</td><td>0%</td><td>0%</td></tr><tr><td><mark style="color:blue;">Rare</mark></td><td>200</td><td>false</td><td>25%</td><td>8%</td></tr><tr><td><mark style="color:purple;">Epic</mark></td><td>300</td><td>true</td><td>40%</td><td>13%</td></tr><tr><td><mark style="color:orange;">Legendary</mark></td><td>500</td><td>true</td><td>65%</td><td>21%</td></tr></tbody></table>
+<table><thead><tr><th width="136">Tier</th><th width="188" data-type="number">Daily Ebon Coin Cap</th><th width="137" data-type="checkbox">Landlord Status</th><th>Base Stat Bonus</th><th>Experience Bonus</th></tr></thead><tbody><tr><td><mark style="color:green;">Common</mark></td><td>100</td><td>false</td><td>0%</td><td>0%</td></tr><tr><td><mark style="color:blue;">Rare</mark></td><td>200</td><td>false</td><td>25%</td><td>8%</td></tr><tr><td><mark style="color:purple;">Epic</mark></td><td>300</td><td>false</td><td>40%</td><td>13%</td></tr><tr><td><mark style="color:orange;">Legendary</mark></td><td>500</td><td>true</td><td>65%</td><td>21%</td></tr></tbody></table>
+
+#### Dungeon Landlord Taxation (by Dungeon Tier)
+
+- **Scope**: A baseline tax applies to all Ebon Coin earned inside a dungeon by visiting players. Any Ebon Coin earned beyond a player's daily cap is **redirected 100% to the Landlord** in addition to the baseline tax and is subject to a **7-day conversion cooldown**.
+
+| Tier | Baseline Tax (all earnings) | Adjustable Range | Default |
+| ---- | --------------------------- | ---------------- | ------- |
+| Rare | 5%                          | Fixed            | 5%      |
+| Epic | 10%–20%                     | Adjustable       | 15%     |
+| Legendary | 15%–35%                | Adjustable       | 20%     |
+
+**Examples**
+
+- Rare Dungeon (5% fixed). Player with a 100 Ebon/day cap earns 160 Ebon in one session:
+  - Baseline tax: 5% × 160 = 8 Ebon to Landlord. Player receives 152 Ebon.
+  - Daily cap overflow: 160 − 100 = 60 Ebon redirected 100% to Landlord (7-day cooldown).
+  - Final: Player 100 Ebon; Landlord 8 + 60 = 68 Ebon.
+
+- Legendary Dungeon (20% tax). Legendary player with 500 Ebon/day cap earns 700 Ebon:
+  - Baseline tax: 20% × 700 = 140 Ebon to Landlord. Player receives 560 Ebon.
+  - Daily cap overflow: 700 − 500 = 200 Ebon redirected 100% to Landlord (7-day cooldown).
+  - Final: Player 500 Ebon; Landlord 140 + 200 = 340 Ebon.
 
 ### Landlords: The Apex of Power and Wealth
 
