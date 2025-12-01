@@ -16,21 +16,25 @@ The <mark style="color:purple;">$EPIC</mark> presale will be conducted in **two 
 
 **Round 1: Private Whitelist Sale**
 
-* **Date:** December (Exact date TBD)
+* **Date:** November (Exact date TBD)
 * **Availability:** Limited to **10,000 whitelist winners**
-* **Price:** **0.1 BNB per $EPIC**
-* **Tokens for sale:** **5,000,000 $EPIC**
+* **Price:** **$0.02 per $EPIC (BNB equivalent posted 24h before sale)**
+* **Tokens for sale:** **2,000,000 $EPIC**
+* **Per-Wallet Cap:** **up to 50,000 $EPIC** (FCFS within the window)
+* **Vesting:** **10% TGE, 2-month cliff, then linear over 10 months**
 * **Funds Allocation:** **60% for game development (servers, smart contracts, in-game economy balance, Unreal Engine implementation), 25% for partnerships and ecosystem growth, and 15% for marketing and community engagement**
-* **Hard Cap:** Yes (Exact figure TBD)
+* **Hard Cap:** Yes (based on token cap above)
 
 **Round 2: Public Sale**
 
-* **Date:** November (Exact date TBD)
-* **Price:** **0.15 BNB per $EPIC** (50% higher than Round 1)
-* **Tokens for sale:** **15,000,000 $EPIC**
-* **Hard Cap:** No limit
+* **Date:** December (Exact date TBD)
+* **Price:** **$0.03 per $EPIC (BNB equivalent posted 24h before sale)**
+* **Tokens for sale:** **3,000,000 $EPIC**
+* **Per-Wallet Cap:** **up to 100,000 $EPIC**
+* **Vesting:** **10% TGE, 2-month cliff, then linear over 10 months**
+* **Hard Cap:** Yes (based on token cap above)
 * **Liquidity:** **52% of funds** raised in this round will be used for **public sale liquidity**
-* **Public Listing:** After presale, **$EPIC will be listed on PancakeSwap** at **0.3 BNB per $EPIC**
+* **Public Listing:** After presale, **$EPIC will be listed on PancakeSwap** at **$0.05 per $EPIC (BNB equivalent posted 24h before listing)**
 * **Liquidity Lock:** **6 months**
 
 #### How to Join the Whitelist (Round 1)
@@ -86,7 +90,9 @@ Dungeon NFTs represent **Rare, Epic, and Legendary Dungeons**, each featuring a 
 
 <table><thead><tr><th width="220.5">Bundle</th><th width="100.5">Price</th><th width="123">Rare Chance</th><th width="111.5">Epic Chance</th><th width="162">Legendary Chance</th></tr></thead><tbody><tr><td>Explorer’s Chest</td><td><strong>1 BNB</strong></td><td><strong>80%</strong></td><td><strong>15%</strong></td><td><strong>5%</strong></td></tr><tr><td>Adventurer’s Vault</td><td><strong>1.5 BNB</strong></td><td><strong>60%</strong></td><td><strong>30%</strong></td><td><strong>10%</strong></td></tr><tr><td>Master’s Reliquary</td><td><strong>2.5 BNB</strong></td><td><strong>40%</strong></td><td><strong>40%</strong></td><td><strong>20%</strong></td></tr></tbody></table>
 
-* **Availability:** Limited supply (Exact numbers TBD per category).
+* **Availability:** Season 1 hard caps across all bundles: **Rare ≤ 4,000**, **Epic ≤ 1,600**, **Legendary ≤ 400** (total ≤ 6,000 keys). If a rarity cap is reached, mints for that rarity stop.
+* **Randomness:** On-chain **VRF** used to determine outcomes; probabilities as listed per bundle.
+* **Per-Wallet Caps:** Up to **20 Explorer’s Chest**, **10 Adventurer’s Vault**, **5 Master’s Reliquary** per wallet.
 * **Round 2:** Prices will increase, making bundles more expensive.
 
 #### **Hero Summon Bundles** (NFT Sale Round 1)
@@ -97,7 +103,9 @@ Hero NFTs will be sold in **summon packs**, granting a **chance to receive a Rar
 
 <table data-full-width="false"><thead><tr><th width="219.5">Pack Name</th><th width="107.5">Price</th><th width="124">Rare Chance</th><th width="114">Epic Chance</th><th width="151.5">Legendary Chance</th></tr></thead><tbody><tr><td>Apprentice’s Call</td><td><strong>0.1 BNB</strong></td><td><strong>85%</strong></td><td><strong>12%</strong></td><td><strong>3%</strong></td></tr><tr><td>Warrior’s Pact</td><td><strong>0.5 BNB</strong></td><td><strong>60%</strong></td><td><strong>30%</strong></td><td><strong>10%</strong></td></tr><tr><td>Champion’s Oath</td><td><strong>1 BNB</strong></td><td><strong>40%</strong></td><td><strong>40%</strong></td><td><strong>20%</strong></td></tr></tbody></table>
 
-* **Availability:** Limited quantity (Exact numbers TBD per tier).
+* **Availability:** Season 1 hero mint caps across packs: **Rare ≤ 35,000**, **Epic ≤ 12,000**, **Legendary ≤ 3,000** (total ≤ 50,000 heroes). Pity system: **+1% Legendary chance every 10 packs opened without a Legendary** (resets on Legendary).
+* **Randomness:** On-chain **VRF** used to determine outcomes; probabilities as listed per pack.
+* **Per-Wallet Caps:** Up to **500 Apprentice’s Call**, **200 Warrior’s Pact**, **100 Champion’s Oath** per wallet.
 * **Round 2:** Higher prices for all summon packs.
 
 The **Dungeon NFTs** are fully integrated with **Unreal Engine's PCG system**, allowing unique procedural dungeon creation. Players will be able to explore these dungeons, each possessing its own rarity and difficulty, adding value to ownership.

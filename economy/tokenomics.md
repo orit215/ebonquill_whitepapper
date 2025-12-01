@@ -24,6 +24,7 @@ Our Play & Earn dungeon crawler RPG is powered by <mark style="color:purple;">**
   * Earned through PvE and PvP activities
   * Used for in-game transactions (crafting, repairs, NPC trades, upgrades)
   * Can be converted to <mark style="color:purple;">**$EPIC**</mark> under regulated conditions
+  * **Account-bound and non-transferable between players; conversion only via the Oracle (no P2P trading)**
 
 ### **Dual-Currency System**
 
@@ -48,13 +49,14 @@ Unlike traditional inflationary P2E models, our system **controls&#x20;**<mark s
 
 The total supply of <mark style="color:purple;">**$EPIC**</mark> is allocated as follows:
 
-| Allocation Category      | Percentage |
-| ------------------------ | ---------- |
-| **Play & Earn Rewards**  | 50%        |
-| **Staking & Liquidity**  | 20%        |
-| **Development Fund**     | 15%        |
-| **Marketing & Airdrops** | 10%        |
-| **Ecosystem Growth**     | 5%         |
+| Allocation Category        | Percentage |
+| -------------------------- | ---------- |
+| **Play & Earn Rewards**    | 50%        |
+| **Staking & Liquidity**    | 18%        |
+| **Development Fund**       | 12%        |
+| **Marketing & Airdrops**   | 8%         |
+| **Ecosystem Growth**       | 2%         |
+| **Public & Private Sale**  | 10%        |
 
 ### **Marketplace & NFT Integration**
 
@@ -76,6 +78,13 @@ To prevent economic collapse due to hyperinflation, the following mechanisms are
 * **Landlord taxation system**, ensuring steady token redistribution (by dungeon tier: **Rare 5% fixed; Epic 10%–20% (default 15%); Legendary 15%–35% (default 20%)**).
 * **Staking incentives** to encourage token retention rather than liquidation.
 * **Light system** that limits dungeon farming, preventing excessive rewards.
+
+#### Conversion Controls (enforced by the Oracle)
+
+* **Per-hero weekly conversion limits** (examples): Common 500, Rare 1,000, Epic 1,800, Legendary 3,000 Ebon Coin per week (variable with rate; see Oracle for full table).
+* **Per-hero conversion cooldowns**: 24h for Common/Rare, 36h for Epic/Legendary after each conversion.
+* **Landlord weekly conversion caps (per dungeon)**: Rare 5,000; Epic 10,000; Legendary 20,000 Ebon Coin, adaptively scaled by liquidity health.
+* **Dynamic rate bands**: Normal 700:1–1000:1; Emergency up to 1200:1 under stress.
 
 ### **Play & Earn Economy**
 
@@ -108,3 +117,12 @@ While initially centralized, governance will gradually transition to **community
 * New game content and expansions
 
 This ensures a **long-term, player-incentivized economy** where key stakeholders drive the game's evolution.
+
+### **Vesting & Locks**
+
+* **Public & Private Sale (10%)**: 10% at TGE, 2-month cliff, then linear vesting over 10 months.
+* **Development Fund (12%)**: 12-month cliff, then linear vesting over 24 months.
+* **Staking & Liquidity (18%)**: Emitted per Oracle-governed schedule; LP tokens locked for 6 months.
+* **Marketing & Airdrops (8%)**: 10% at TGE, then linear vesting over 18 months.
+* **Ecosystem Growth (2%)**: Linear vesting over 24 months.
+* **Play & Earn (50%)**: Emitted via in-game earnings subject to Oracle daily cap and seasonal adjustments.

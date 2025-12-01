@@ -66,6 +66,19 @@ Final Rate = 1000 × 0.9625 = 962.5:1
 ```
 {% endcode %}
 
+**Rate Bands & Clamping**
+
+- **Normal Band:** 700:1 to 1000:1 (baseline operation).
+- **Emergency Band:** 1000:1 to 1200:1 when any of the following hold:
+  - `Projected_Daily_Conversions > 13,700 $EPIC`
+  - `Liquidity_Health < 3.0`
+  - `Light_Impact_Factor > 0.80`
+
+```
+Emergency_Multiplier ∈ [1.00, 1.20]
+FinalRate = clamp(Rate × Emergency_Multiplier, 700:1, 1200:1)
+```
+
 ***
 
 #### 2. Anti-Inflation Mechanisms
@@ -94,7 +107,7 @@ When Light consumption exceeds 80% of ecosystem capacity:
 
 * Conversion rate shifts toward the 1000:1 (less favorable) end
 * Additional cooldown of 6 hours applied to conversions
-* Landlord tax percentage increases by 5-10% to slow Ebon Coin circulation
+* **Landlord tax percentage increases by 5-10% (Epic/Legendary only; Rare remains fixed at 5%)** to slow Ebon Coin circulation
 
 **Concrete Example:**
 
@@ -119,8 +132,45 @@ Leveraging the existing landlord taxation system (5% - 35% based on tier):
 **Economic Flow:**
 
 1. Player earns 600 Ebon Coin with Legendary Hero (cap: 500)
-2. Player receives: 500 Ebon Coin (convertible after 24h cooldown)
+2. Player receives: 500 Ebon Coin (convertible after the per-hero cooldown: 24h for Common/Rare, 36h for Epic/Legendary)
 3. Landlord receives: 100 Ebon Coin (convertible after 7-day cooldown)
+
+**D. Landlord Weekly Conversion Caps (by Dungeon Tier)**
+
+To prevent concentrated emissions from high-traffic dungeons, Ebon Coin received by Landlords (baseline tax + overflow) is subject to weekly conversion caps per dungeon, resetting every Monday 00:00 UTC:
+
+| Dungeon Tier | Weekly Landlord Conversion Cap |
+| ------------ | ------------------------------ |
+| Rare         | 5,000 Ebon Coin                |
+| Epic         | 10,000 Ebon Coin               |
+| Legendary    | 20,000 Ebon Coin               |
+
+Adaptive rule: If `Liquidity_Health < 3.0`, caps are reduced by **25%**; if `Liquidity_Health ≥ 5.0`, caps may be increased by **10%**.
+
+***
+
+**E. Per-Hero Conversion Cooldowns**
+
+To prevent rapid cycling and arbitrage, each hero has a rolling cooldown after converting Ebon Coin to $EPIC:
+
+| Hero Tier | Cooldown after Conversion |
+| --------- | ------------------------- |
+| Common    | 24 hours                  |
+| Rare      | 24 hours                  |
+| Epic      | 36 hours                  |
+| Legendary | 36 hours                  |
+
+Cooldowns apply per hero and stack with Landlord 7-day cooldowns for taxed Ebon. Attempts during cooldown are queued.
+
+**F. Light Profitability Guard**
+
+The Oracle enforces a floor on Light restoration ROI to avoid infinite-farming loops:
+
+```
+Expected_EPIC_Out_Per_100_Light ≤ 0.95 × EPIC_Cost_Per_100_Light
+```
+
+If violated, either `Light_Cost_Multiplier` increases by +0.05 (up to 1.20) or `FinalRate` shifts +50 toward 1000:1 temporarily.
 
 ***
 
@@ -184,6 +234,29 @@ Economic_Health_Bonus = 0 to 0.20
 {% hint style="info" %}
 **Effect:** During healthy economic periods, dungeons regenerate Light faster, encouraging more gameplay and sustainable farming.
 {% endhint %}
+
+#### **Light Restoration Pricing (by Dungeon Tier)**
+
+Restoring Light requires spending <mark style="color:purple;">$EPIC</mark>. Base costs scale by tier and are adjusted by the Oracle to align ROI with economic health.
+
+| Dungeon Tier | Base Cost per 100 Light | Notes                         |
+| ------------ | ------------------------ | ----------------------------- |
+| Rare         | 0.75 $EPIC               | Entry-level operations        |
+| Epic         | 1.50 $EPIC               | Increased throughput          |
+| Legendary    | 3.00 $EPIC               | Tournament-grade operations   |
+
+Oracle modifier:
+
+```
+Light_Cost_Multiplier =
+  1.20 when FinalRate ≤ 800:1   (high activity)
+  1.00 when FinalRate ≈ 850–900:1
+  0.80 when FinalRate ≥ 1000:1  (low activity)
+
+EPIC_Cost = Base_Tier_Cost × (Light_To_Restore / 100) × Light_Cost_Multiplier
+```
+
+Bounds: `Light_Cost_Multiplier ∈ [0.80, 1.20]`.
 
 ***
 

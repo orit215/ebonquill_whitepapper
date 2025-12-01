@@ -26,10 +26,10 @@ Holders of <mark style="color:purple;">**$EPIC**</mark> will be able to propose 
 
 The DAO will manage a **community treasury**, funded through:
 
-* A **small percentage of marketplace fees**
-* **Dungeon taxation system contributions**
-* **Portions of staking and liquidity pools**
-* **In-game transaction fees**
+* **2.5% of marketplace fees in $EPIC** (all trades on the NFT marketplace)
+* **Dungeon taxation system contributions** (by tier, as defined in gameplay docs)
+* **Portions of staking emissions and liquidity operations**
+* **In-game transaction fees** where applicable
 
 These funds will be used to further develop the game, improve infrastructure, and support marketing and community initiatives based on DAO governance decisions.
 
