@@ -10,4 +10,8 @@ Welcome to the Ebonquill Whitepaper! Here you'll get an overview of all the exci
 
 ### Jump right in
 
-<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Create your first site</td><td></td><td></td><td><a href="about-game/what-is.md">what-is.md</a></td></tr><tr><td><strong>Basics</strong></td><td>Learn the basics of GitBook</td><td></td><td></td><td><a href="/broken/pages/7aUFmnCMx9m4smGncsXL">Broken link</a></td></tr><tr><td><strong>Publish your docs</strong></td><td>Share your docs online</td><td></td><td></td><td><a href="about-game/dungeon-realms.md">dungeon-realms.md</a></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody>
+<tr><td><strong>What is Ebonquill?</strong></td><td>Overview of the game, NFTs, and core loop</td><td></td><td></td><td><a href="about-game/what-is.md">about-game/what-is.md</a></td></tr>
+<tr><td><strong>Tokenomics</strong></td><td>$EPIC, Ebon Coin, allocations, and fees</td><td></td><td></td><td><a href="economy/tokenomics.md">economy/tokenomics.md</a></td></tr>
+<tr><td><strong>Oracle</strong></td><td>Dynamic rates, limits, and anti-inflation controls</td><td></td><td></td><td><a href="economy/oracle.md">economy/oracle.md</a></td></tr>
+</tbody></table>
