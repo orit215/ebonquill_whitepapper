@@ -28,3 +28,4 @@
 * [DAO](economy/dao.md)
 * [$EPIC and NFTs Presale](economy/presale.md)
 * [Oracle](economy/oracle.md)
+* [Marketplace](economy/marketplace.md)

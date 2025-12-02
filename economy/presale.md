@@ -95,22 +95,26 @@ Dungeon NFTs represent **Rare, Epic, and Legendary Dungeons**, each featuring a 
 * **Per-Wallet Caps:** Up to **20 Explorer’s Chest**, **10 Adventurer’s Vault**, **5 Master’s Reliquary** per wallet.
 * **Round 2:** Prices will increase, making bundles more expensive.
 
-#### **Hero Summon Bundles** (NFT Sale Round 1)
+#### **Scroll Bundles (Hero + Weapon)** (NFT Sale Round 1)
 
-Hero NFTs will be sold in **summon packs**, granting a **chance to receive a Rare, Epic, or Legendary hero**.
+Scrolls each contain **1 Hero NFT** and **1 Weapon (Gear) NFT**, with independent rarity rolls per item.
 
-* **Hero NFTs will be distributed via summon packs with weighted probabilities:**
+* **Weighted probabilities per scroll (hero rarity | weapon rarity):**
 
-<table data-full-width="false"><thead><tr><th width="219.5">Pack Name</th><th width="107.5">Price</th><th width="124">Rare Chance</th><th width="114">Epic Chance</th><th width="151.5">Legendary Chance</th></tr></thead><tbody><tr><td>Apprentice’s Call</td><td><strong>0.1 BNB</strong></td><td><strong>85%</strong></td><td><strong>12%</strong></td><td><strong>3%</strong></td></tr><tr><td>Warrior’s Pact</td><td><strong>0.5 BNB</strong></td><td><strong>60%</strong></td><td><strong>30%</strong></td><td><strong>10%</strong></td></tr><tr><td>Champion’s Oath</td><td><strong>1 BNB</strong></td><td><strong>40%</strong></td><td><strong>40%</strong></td><td><strong>20%</strong></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="210">Scroll Name</th><th width="110">Price</th><th width="120">Hero Rare</th><th width="110">Hero Epic</th><th width="150">Hero Legendary</th><th width="130">Weapon Rare</th><th width="130">Weapon Epic</th><th width="150">Weapon Legendary</th></tr></thead><tbody>
+<tr><td>Apprentice’s Scroll</td><td><strong>0.15 BNB</strong></td><td><strong>85%</strong></td><td><strong>12%</strong></td><td><strong>3%</strong></td><td><strong>90%</strong></td><td><strong>9%</strong></td><td><strong>1%</strong></td></tr>
+<tr><td>Warrior’s Scroll</td><td><strong>0.6 BNB</strong></td><td><strong>60%</strong></td><td><strong>30%</strong></td><td><strong>10%</strong></td><td><strong>70%</strong></td><td><strong>25%</strong></td><td><strong>5%</strong></td></tr>
+<tr><td>Champion’s Scroll</td><td><strong>1.2 BNB</strong></td><td><strong>40%</strong></td><td><strong>40%</strong></td><td><strong>20%</strong></td><td><strong>50%</strong></td><td><strong>35%</strong></td><td><strong>15%</strong></td></tr>
+</tbody></table>
 
-* **Availability:** Season 1 hero mint caps across packs: **Rare ≤ 35,000**, **Epic ≤ 12,000**, **Legendary ≤ 3,000** (total ≤ 50,000 heroes). Pity system: **+1% Legendary chance every 10 packs opened without a Legendary** (resets on Legendary).
-* **Randomness:** On-chain **VRF** used to determine outcomes; probabilities as listed per pack.
-* **Per-Wallet Caps:** Up to **500 Apprentice’s Call**, **200 Warrior’s Pact**, **100 Champion’s Oath** per wallet.
-* **Round 2:** Higher prices for all summon packs.
+* **Season 1 supply caps (global across scrolls):** Heroes — **Rare ≤ 35,000**, **Epic ≤ 12,000**, **Legendary ≤ 3,000**. Weapons — **Rare ≤ 80,000**, **Epic ≤ 18,000**, **Legendary ≤ 2,000**. If a rarity cap is reached, subsequent rolls for that rarity downshift to the next available tier.
+* **Randomness:** On-chain **VRF** used for both hero and weapon rolls.
+* **Per-Wallet Caps:** Up to **300 Apprentice’s Scroll**, **150 Warrior’s Scroll**, **75 Champion’s Scroll** per wallet.
+* **Round 2:** Higher prices for all scroll bundles.
 
 The **Dungeon NFTs** are fully integrated with **Unreal Engine's PCG system**, allowing unique procedural dungeon creation. Players will be able to explore these dungeons, each possessing its own rarity and difficulty, adding value to ownership.
 
-Similarly, **Hero NFTs** will function as playable characters, with their attributes directly influencing in-game performance. The ability to summon **Rare, Epic, or Legendary Heroes** through packs encourages strategic planning and investment.
+Similarly, **Hero NFTs** function as playable characters, and **Weapon NFTs** are equippable gear with stats influencing performance. Acquiring heroes and weapons together through scrolls supports early progression and strategic planning.
 
 {% hint style="info" %}
 This presale offers investors and players the **first and best opportunity** to secure assets before the public release, with structured price advantages and future scarcity driving long-term value.

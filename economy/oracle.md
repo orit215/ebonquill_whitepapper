@@ -89,10 +89,10 @@ The Oracle implements several concrete safeguards tied to existing game mechanic
 
 Building on the existing daily earning caps, weekly conversion limits prevent market flooding:
 
-<table><thead><tr><th width="115.066650390625">Hero Tier</th><th width="181.89996337890625">Daily Ebon Coin Cap</th><th width="274.9000244140625">Weekly Conversion Limit (to $EPIC)</th><th>Max Weekly $EPIC Out</th></tr></thead><tbody><tr><td><strong>Common</strong></td><td>100</td><td>500 Ebon Coin</td><td>0.5 - 0.71 $EPIC</td></tr><tr><td><strong>Rare</strong></td><td>200</td><td>1,000 Ebon Coin</td><td>1.0 - 1.43 $EPIC</td></tr><tr><td><strong>Epic</strong></td><td>300</td><td>1,800 Ebon Coin</td><td>1.8 - 2.57 $EPIC</td></tr><tr><td><strong>Legendary</strong></td><td>500</td><td>3,000 Ebon Coin</td><td>3.0 - 4.29 $EPIC</td></tr></tbody></table>
+<table><thead><tr><th width="115.066650390625">Hero Tier</th><th width="181.89996337890625">Daily Ebon Coin Cap</th><th width="274.9000244140625">Weekly Conversion Limit (to $EPIC)</th><th>Max Weekly $EPIC Out</th></tr></thead><tbody><tr><td><strong>Common</strong></td><td>100</td><td>500 Ebon Coin</td><td>0.42 - 0.71 $EPIC</td></tr><tr><td><strong>Rare</strong></td><td>200</td><td>1,000 Ebon Coin</td><td>0.83 - 1.43 $EPIC</td></tr><tr><td><strong>Epic</strong></td><td>300</td><td>1,800 Ebon Coin</td><td>1.50 - 2.57 $EPIC</td></tr><tr><td><strong>Legendary</strong></td><td>500</td><td>3,000 Ebon Coin</td><td>2.50 - 4.29 $EPIC</td></tr></tbody></table>
 
 {% hint style="info" %}
-_Max $EPIC output varies based on the dynamic rate (700:1 to 1000:1)_
+_Max $EPIC output varies based on the dynamic rate (700:1 to 1200:1)_
 {% endhint %}
 
 **B. Light System Integration**
@@ -107,7 +107,7 @@ When Light consumption exceeds 80% of ecosystem capacity:
 
 * Conversion rate shifts toward the 1000:1 (less favorable) end
 * Additional cooldown of 6 hours applied to conversions
-* **Landlord tax percentage increases by 5-10% (Epic/Legendary only; Rare remains fixed at 5%)** to slow Ebon Coin circulation
+* **Landlord tax percentage increases by 5-10% (Epic/Legendary only; Rare remains fixed at 5%)**, but **never above the tier maximum** (Epic cap: 20%, Legendary cap: 35%), to slow Ebon Coin circulation
 
 **Concrete Example:**
 
